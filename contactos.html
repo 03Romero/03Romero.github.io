@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/ico" href="ing/favicon.ico" />
+</head>
+
+<body>
+    <header role="banner">
+        <div class="logo">
+            <img src="ing/jhon.jpg" alt="logo" height="50">
+        </div>
+        <nav class="navegacion" role="navigation">
+
+            <ul class="nenus">
+                <li><a class="b" href="index.html">Ir a pagina principal </a> </li>
+                <li><a href="sitios_turisticos.html ">Ir a sitios turisticos </a></li>
+                <li><a class="d" href="http://google.com" target="_blank">Ir a Google </a> </li>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <div>
+
+            <h2> Puedes contactarte conmigo,ingresa tus datos y seras atendido</h2>
+            <h3>Contactate </h3>
+            <address>Autor:Jhonatan Romero Yalle <br>
+            Direccion:Urbanizacion El Molino A-64 <br>
+            cel:985372397 <br>
+            email:jromeroy13@unc.edu.pe
+        </address>
+
+        </div>
+    </section>
+
+
+
+
+    <h2> <strong> INGRESA TUS DATOS </strong> </h2>
+
+    <form class="formulario">
+        <!-- action="index.html" method="post"-->
+
+        <fieldset>
+            <legend> Tus datos</legend>
+
+            <label for="Nombre"> Nombre</label>
+            <input type="text" name="nombre" placeholder="tu nombre" id="Nombre " autocomplete="on">
+            <br>
+            <br>
+            <label for="Apellido"> Apellido</label>
+            <input type="text" name="apellido" placeholder="tu apellido" id="Apellido " autocomplete="on">
+            <br><br>
+            <label for="sexo">Sexo:</label><br>
+            <input type="radio" id="sexo" name="sexo" value="hombre" checked> Hombre<br>
+            <input type="radio" id="sexo" name="sexo" value="mujer">Mujer<br>
+            <input type="radio" id="sexo" name="sexo" value="otro">Otro<br>
+            <br><br>
+            <label for="">Fecha de Cunpleaños</label>
+            <input type="date" name="fecha" value="">
+            <input type="datetime-local" name="fecha" value="">
+            <br><br>
+            <label>Correo electronico</label>
+            <input type="email" name="email" placeholder="correo@dominio.com">
+            <br><br>
+            <label>Contraseña</label>
+            <input type="password" name="contrasena" value="" />
+            <br><br>
+            <label for="">Tu sitio web</label>
+            <input type="url" name="sitio web" placeholder="http://www.dominio.com" value="">
+            <br><br>
+            <label for="">¿Cuanto conoces Cajamarca?</label>
+            <input type="range" name="puntaje" min="0" max="100" value="">
+
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Informacion sobre los atractivos turisticos que desea visitar</legend>
+            <label for="turno">Turno:</label>
+            <select id="turno" class="turno" name="turno">
+                          <option value="matutino">Matutino</option>
+                          <option value="vespertino">Vespertino</option>
+                          
+                        </select>
+            <br><br>
+            <label for="">Que atractivos  turisticos  te gustaria que agregaranos</label>
+            <input list="propuesta" name="encuesta" value="">
+            <datalist id="propuesta">
+                          <option value="Convento iglesia la Recoleta">
+                          <option value="la colpa">
+                          <option value="huanbocancha y porcon bajo">
+                          <option value="catedral santa catalina">
+                
+                        </datalist>
+            <br><br>
+            <label>Elige los atractivos turisticos que desas visitar</label><br>
+            <input type="checkbox" name="" value="Baños del inca">BAÑOS DEL INCA <br>
+            <input type="checkbox" name="" value="Cerro Santa Apolonia">SANTA APOLONIA<br>
+            <input type="checkbox" name="" value="La colpa">VENTANILLAS DE OTUZCO <br>
+            <input type="checkbox" name="" value="Cuarto de Rescate">CUARTO DE RESCATE <br>
+            <input type="checkbox" name="" value="Cumbe Mayo">CUMBE MAYO <br>
+            <input type="checkbox" name="" value="Granja Porcon">GRANJA PORCON<br>
+            <br>
+            <label for="">Fecha que deseas realizar la visita </label>
+            <input type="month" name="fecha"><br>
+            <input type="time" name="fecha"><br>
+            <input type="week" name="fecha"><br>
+
+
+
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Extra</legend>
+            <label>Las primeras 10 personas reciben un polo gratis,elige el color</label>
+            <input type="color" name="color" value=""><br><br>
+            <label for=""> elige la talla</label><br>
+            <input type="radio" id="talla" name="talla" value="s" checked> S<br>
+            <input type="radio" id="talla" name="talla" value="m">M<br>
+            <input type="radio" id="talla" name="talla" value="xl">L<br>
+        </fieldset>
+        <br>
+        <button type="reset" name="button">Borrar</button>
+        <input type="submit" value="enviar">
+
+    </form>
+
+    <footer>
+        <!-- el contenido del pie de página va aquí -->
+        <div class="nosotros">
+            <h3>Sobre mi universidad </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p>
+        </div>
+        <div class="menu">
+            <nav class="navegacion" role="navigation">
+
+                <ul class="nenus ">
+
+                    <li><a href="sitios_turisticos.html ">Ir a sitios turisticos </a></li>
+                </ul>
+                <p>Siguenos en facebook</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/ " target="_blank "> Ir a facebook </a> </li>
+
+                    <li><a href="#inicio">Ir al principio </a> </li>
+                </ul>
+
+
+            </nav>
+        </div>
+
+        <center>
+            <p>Pagina Personal &mdash; Todos los derechos reservados;2019 &copy;</p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
