@@ -1,0 +1,55 @@
+.contenedor {
+    color: black;
+    background-color: lightblue;
+    font-style: italic
+}
+
+.cabecera {
+    background-color: mediumseagreen;
+    color: black
+}
+
+.fotter {
+    background-color: saddlebrown
+}
+
+#main {
+    background-color: darkkhaki
+}
+
+#table {
+    background-color: aquamarine
+}
+
+h1 {
+    color: brown;
+    font-size: 23
+}
+
+h2 {
+    color: darkblue
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: darkkhaki
+}
+
+a:link {
+    background-color: blue;
+    color: #ff0000;
+}
+
+a :visited {
+    background-color: burlywood;
+    color: #00ff00;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #000066;
+    text-decoration: none;
+}
