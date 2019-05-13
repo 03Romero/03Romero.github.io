@@ -4,39 +4,48 @@
     font-style: italic;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-family: arial;
+.nenus {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row, column;
 }
 
-ul {
-    list-style: none;
+li {
+    flex-grow: 1;
+}
+
+.b,
+.c,
+.d,
+.e {
     display: block;
+    padding: 1em;
+    background-color: #FF8C00;
+    text-align: center;
+    margin: bottom: 0.2em;
+    text-decoration: none;
+    color: #000000
 }
 
-ul li {
-    float: left;
-    background-color: #2e2e2e
+.b:hover {
+    background-color: #9932CC;
 }
 
-div.general {
-    padding: 15px 40px;
+.c:hover {
+    background-color: #9932CC;
 }
 
-div.menu {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin-right: 5px;
-    background-color: green;
+.d:hover {
+    background-color: #9932CC;
 }
 
-.cabecera {
-    background-color: mediumseagreen;
-    color: black
+.e:hover {
+    background-color: #9932CC;
 }
+
+.cabecera {}
 
 .fotter {
     background-color: saddlebrown
