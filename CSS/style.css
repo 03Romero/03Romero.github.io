@@ -4,6 +4,35 @@
     font-style: italic;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: arial;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+ul li {
+    float: left;
+    background-color: #2e2e2e
+}
+
+div.general {
+    padding: 15px 40px;
+}
+
+div.menu {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    background-color: green;
+}
+
 .cabecera {
     background-color: mediumseagreen;
     color: black
