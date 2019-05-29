@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#menu ul li {
+    background-color: #666;
+}
+
+#consulta {
+    float: left;
+}
+
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#menu ul li a:hover {
+    background: rgb(42, 21, 231);
+    border-left: 10px solid #333;
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+body {
+    width: 60cm;
+    margin: 0 auto;
+}
+
+#enlaces {
+    width: 16cm;
+    height: 100cm;
+}
+
+#fina ul {
+    list-style: none;
+}
+
+#imagen {
+    width: 44cm
+}
+
+h1 {}
+
+#enlaces,
+#imagen {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#imagen h3 {
+    background-color: black
+}
